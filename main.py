@@ -24,12 +24,12 @@ def find_mismatch(text):
 
 def main():
     is_file = input("File(F) or Input(I)")
-    if is_file == 'I':
-        text = input()
-        mismatch = find_mismatch(text)
-        # Printing answer, write your code here
-        print(mismatch)
-    else:
-        pass
-if __name__ == "__main__":
-    main()
+    #if is_file == 'I':
+    text = input()
+    mismatch = find_mismatch(text)
+    # Printing answer, write your code here
+    print(mismatch)
+    #else:
+    #    pass
+    if __name__ == "__main__":
+        main()
